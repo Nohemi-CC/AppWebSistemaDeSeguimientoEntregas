@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CrudRazorApp
+build_property.RootNamespace = CrudRazorApp
+build_property.ProjectDir = C:\Users\Mimi0\OneDrive\Documents\Profe\CrudRazorApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Mimi0\OneDrive\Documents\Profe\CrudRazorApp
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Mimi0/OneDrive/Documents/Profe/CrudRazorApp/Pages/Clientes/Clindex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcQ2xpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mimi0/OneDrive/Documents/Profe/CrudRazorApp/Pages/Clientes/CreateCli.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcQ3JlYXRlQ2xpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mimi0/OneDrive/Documents/Profe/CrudRazorApp/Pages/Clientes/DeleteCli.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcRGVsZXRlQ2xpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mimi0/OneDrive/Documents/Profe/CrudRazorApp/Pages/Clientes/EditCli.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcRWRpdENsaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mimi0/OneDrive/Documents/Profe/CrudRazorApp/Pages/Envios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW52aW9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mimi0/OneDrive/Documents/Profe/CrudRazorApp/Pages/Envios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW52aW9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mimi0/OneDrive/Documents/Profe/CrudRazorApp/Pages/Envios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW52aW9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mimi0/OneDrive/Documents/Profe/CrudRazorApp/Pages/Envios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW52aW9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mimi0/OneDrive/Documents/Profe/CrudRazorApp/Pages/Envios/EstadosEnvio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW52aW9zXEVzdGFkb3NFbnZpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mimi0/OneDrive/Documents/Profe/CrudRazorApp/Pages/Envios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW52aW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mimi0/OneDrive/Documents/Profe/CrudRazorApp/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mimi0/OneDrive/Documents/Profe/CrudRazorApp/Pages/Paquetes/CreatePa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFxdWV0ZXNcQ3JlYXRlUGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mimi0/OneDrive/Documents/Profe/CrudRazorApp/Pages/Paquetes/DeletePa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFxdWV0ZXNcRGVsZXRlUGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mimi0/OneDrive/Documents/Profe/CrudRazorApp/Pages/Paquetes/DetailsPa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFxdWV0ZXNcRGV0YWlsc1BhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mimi0/OneDrive/Documents/Profe/CrudRazorApp/Pages/Paquetes/EditPa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFxdWV0ZXNcRWRpdFBhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mimi0/OneDrive/Documents/Profe/CrudRazorApp/Pages/Paquetes/PaIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFxdWV0ZXNcUGFJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mimi0/OneDrive/Documents/Profe/CrudRazorApp/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mimi0/OneDrive/Documents/Profe/CrudRazorApp/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mimi0/OneDrive/Documents/Profe/CrudRazorApp/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Mimi0/OneDrive/Documents/Profe/CrudRazorApp/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

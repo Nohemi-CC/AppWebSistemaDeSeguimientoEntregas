@@ -1,0 +1,592 @@
+/* =========================================================
+   SysProd - estilos principales
+   Archivo: wwwroot/css/site.css
+   Reemplaza COMPLETAMENTE el contenido por este
+   ========================================================= */
+
+/* ----------------------------- */
+/* Variables de color y helpers  */
+/* ----------------------------- */
+:root {
+    --brand-orange: #F39C12; /* naranja navbar y footer */
+    --brand-dark: #212529;
+    --text-muted: #6c757d;
+}
+
+/* -------------------------------------------------------- */
+/* Reset suave y tipografía base (Bootstrap ya está cargado)*/
+/* -------------------------------------------------------- */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ----------------------------- */
+/* Navbar fijo y espaciador      */
+/* ----------------------------- */
+.navbar.bg-warning {
+    background-color: var(--brand-orange) !important;
+}
+
+/* ====== NAVBAR: bloquear tamaño sin que crezca ====== */
+.navbar {
+    background-color: var(--brand-orange) !important;
+    /* reduce un poco el padding vertical del navbar de Bootstrap */
+    --bs-navbar-padding-y: .35rem;
+}
+
+/* contenedor del logo con altura fija */
+.navbar-brand {
+    height: 64px; /* <- ajusta aquí el alto de tu barra */
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+    /* el logo ocupa el alto del contenedor pero NO lo hace crecer */
+    .navbar-brand img {
+        height: 100%;
+        max-height: 64px; /* <- nunca pasa de la altura del brand */
+        width: auto;
+        filter: drop-shadow(0 1px 2px rgba(0,0,0,.2));
+    }
+
+/* responsive: un poco más bajo en móviles si quieres */
+@media (max-width: 991.98px) {
+    .navbar-brand {
+        height: 48px;
+    }
+
+        .navbar-brand img {
+            max-height: 48px;
+        }
+
+    .pt-nav-spacer {
+        height: 64px;
+    }
+}
+
+
+
+.navbar .nav-link {
+    font-weight: 500;
+}
+
+.pt-nav-spacer {
+    height: 75px;
+}
+/* empuja el contenido por navbar fixed */
+@media (max-width: 991.98px) {
+    .pt-nav-spacer {
+        height: 64px;
+    }
+}
+
+/* ----------------------------- */
+/* HERO con imagen y overlay     */
+/* ----------------------------- */
+.hero {
+    position: relative;
+    min-height: 400px;
+    background: url("../img/hero-fedex.jpg.svg") center/cover no-repeat;
+    border-bottom: 1px solid rgba(0,0,0,.06);
+}
+
+    .hero::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(to bottom, rgba(0,0,0,.25), rgba(0,0,0,.25));
+    }
+
+.hero-inner {
+    position: relative;
+    z-index: 2;
+    padding: 48px 16px 56px;
+}
+
+.hero .brand-title {
+    color: #fff;
+    font-weight: 800;
+    text-shadow: 0 2px 12px rgba(0,0,0,.45);
+}
+
+/* ----------------------------- */
+/* Buscador redondeado en hero   */
+/* ----------------------------- */
+.hero-search {
+    max-width: 520px;
+    margin: 0 auto 16px;
+    background: #fff;
+    border-radius: 999px;
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 6px 18px rgba(0,0,0,.15);
+}
+
+    .hero-search input {
+        border: 0;
+        outline: 0;
+        background: transparent;
+        flex: 1;
+        font-size: 1rem;
+    }
+
+        .hero-search input:focus {
+            box-shadow: none;
+        }
+
+    .hero-search .btn {
+        border-radius: 999px;
+    }
+
+/* ----------------------------- */
+/* Tarjeta de ESTADOS DE ENVÍO   */
+/* ----------------------------- */
+.states-card {
+    background: #eee;
+    border-radius: .5rem;
+    padding: 16px;
+}
+
+.state-row {
+    display: grid;
+    grid-template-columns: 28px 1fr 1fr 1fr;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 8px;
+    border-radius: .375rem;
+}
+
+    .state-row + .state-row {
+        margin-top: .5rem;
+    }
+
+.state-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.dot-green {
+    background: #27ae60;
+}
+
+.dot-yellow {
+    background: #f1c40f;
+}
+
+.dot-red {
+    background: #e74c3c;
+}
+
+@media (max-width: 575.98px) {
+    .state-row {
+        grid-template-columns: 24px 1fr;
+        grid-auto-rows: auto;
+    }
+
+        .state-row > :nth-child(3),
+        .state-row > :nth-child(4) {
+            grid-column: 2;
+        }
+}
+
+/* ----------------------------- */
+/* Footer                        */
+/* ----------------------------- */
+.site-footer {
+    margin-top: auto; /* empuja footer al fondo si hay poco contenido */
+    background: var(--brand-orange);
+    color: #fff;
+    padding: 22px 0;
+    border-top: 1px solid rgba(0,0,0,.08);
+}
+
+.text-light-75 {
+    color: rgba(255,255,255,.85) !important;
+}
+
+/* ----------------------------- */
+/* Utilidades visuales           */
+/* ----------------------------- */
+.shadow-soft {
+    box-shadow: 0 .25rem 1rem rgba(0,0,0,.08);
+}
+
+.rounded-xl {
+    border-radius: 1rem;
+}
+
+.bg-white-80 {
+    background: rgba(255,255,255,.80);
+}
+
+/* ----------------------------- */
+/* Botones pequeños del navbar   */
+/* ----------------------------- */
+.btn.btn-sm {
+    padding: .35rem .7rem;
+    font-weight: 600;
+}
+
+/* ----------------------------- */
+/* Ajustes de tarjetas/links     */
+/* ----------------------------- */
+a {
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+/* ===== Card estilo maqueta "Estados Envíos" ===== */
+.envios-wrap {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.envios-box {
+    border: 2px solid rgba(0,0,0,.65);
+    border-radius: 22px;
+    padding: 22px 18px;
+    box-shadow: 0 6px 16px rgba(0,0,0,.08);
+}
+
+/* Título grande y pesado */
+.envios-title {
+    font-weight: 800;
+    color: #1d1d1f;
+    margin: 0 0 10px 0;
+    /* tamaño fluido similar a la imagen */
+    font-size: clamp(28px, 5.2vw, 56px);
+    letter-spacing: .5px;
+}
+
+/* Encabezado de columnas */
+.envios-head {
+    color: #4a4a4a;
+    font-weight: 600;
+}
+
+.envios-sep {
+    border: 0;
+    border-top: 2px solid rgba(0,0,0,.55);
+    margin: .5rem 0 1rem 0;
+}
+
+/* Filas */
+.envio-row {
+    padding: .55rem .2rem;
+    border-radius: 12px;
+}
+
+    .envio-row + .envio-row {
+        margin-top: .4rem;
+    }
+
+@media (min-width: 768px) {
+    .envio-row {
+        padding: .65rem .35rem;
+    }
+}
+
+/* Bolita de estado */
+.dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: inset 0 0 0 2px rgba(0,0,0,.08);
+}
+
+.dot-green {
+    background: #27ae60;
+}
+
+.dot-yellow {
+    background: #f1c40f;
+}
+
+.dot-red {
+    background: #e74c3c;
+}
+
+.envio-row:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.025);
+}
+
+.envio-row:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+/* ===== Maquetado Paquetes ===== */
+.paq-wrap {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.paq-box {
+    border: 2px solid rgba(0,0,0,.65);
+    border-radius: 18px;
+    padding: 18px 18px 12px;
+    box-shadow: 0 6px 16px rgba(0,0,0,.08);
+    background: #fff;
+}
+
+.paq-title {
+    font-weight: 800;
+    color: #1d1d1f;
+    font-size: clamp(26px, 4.2vw, 48px);
+    letter-spacing: .3px;
+}
+
+/* Botón Añadir */
+.paq-btn-add {
+    background: #1abc9c;
+    color: #fff;
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 999px;
+    font-weight: 700;
+}
+
+    .paq-btn-add:hover {
+        filter: brightness(.95);
+        color: #fff;
+    }
+
+/* ===== Tabla "Paquetes" con efecto zebra ===== */
+.table.paq-table {
+    margin-top: .5rem;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+
+    .table.paq-table thead th {
+        border: none;
+        color: #4a4a4a;
+        font-weight: 600;
+        padding-bottom: .6rem;
+        border-bottom: 2px solid rgba(0,0,0,.55);
+    }
+
+    .table.paq-table tbody td {
+        border: none;
+        padding: 1rem .75rem;
+        vertical-align: middle;
+    }
+
+    /* Filas con efecto zebra */
+    .table.paq-table tbody tr:nth-child(odd) {
+        background-color: #ffffff; /* blanco */
+    }
+
+    .table.paq-table tbody tr:nth-child(even) {
+        background-color: #f7f7f7; /* gris suave */
+    }
+
+    /* Hover sutil */
+    .table.paq-table tbody tr:hover {
+        background-color: rgba(0,0,0,0.05);
+        transition: background-color 0.2s ease-in-out;
+    }
+
+    /* Línea separadora fina entre filas */
+    .table.paq-table tbody tr + tr td {
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+/* Bordes redondeados inferiores (como las tarjetas) */
+.paq-box {
+    border: 2px solid rgba(0,0,0,.65);
+    border-radius: 18px;
+    padding: 22px 18px;
+    box-shadow: 0 6px 16px rgba(0,0,0,.08);
+    background: #fff;
+}
+
+
+/* Botones acción (pill) */
+.paq-btn-edit {
+    background: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: .35rem .9rem;
+    border-radius: 999px;
+    font-weight: 700;
+}
+
+    .paq-btn-edit:hover {
+        filter: brightness(.95);
+        color: #fff;
+    }
+
+.paq-btn-del {
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: .35rem .9rem;
+    border-radius: 999px;
+    font-weight: 700;
+}
+
+    .paq-btn-del:hover {
+        filter: brightness(.95);
+        color: #fff;
+    }
+/* ===== Maquetado: Crear Paquete ===== */
+
+.paq-form-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    min-height: 70vh; /* centra verticalmente en pantallas grandes */
+}
+
+.paq-form-box {
+    border: 2px solid rgba(0, 0, 0, .65);
+    border-radius: 18px;
+    padding: 2rem;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, .08);
+    background: #fff;
+    /* centrado y tamaño más pequeño */
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+/* Título */
+.paq-form-title {
+    font-weight: 800;
+    color: #1d1d1f;
+    font-size: clamp(26px, 3vw, 40px);
+    letter-spacing: .3px;
+    margin: 0 0 22px 0;
+    text-align: center;
+}
+
+/* Inputs con sombra */
+.paq-input {
+    background: #f7f7f7;
+    border: 2px solid #bdbdbd;
+    border-radius: 6px;
+    padding: .9rem 1rem;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .15);
+    width: 100%;
+}
+
+    .paq-input::placeholder {
+        color: #9aa0a6;
+    }
+
+    .paq-input:focus {
+        border-color: #9e9e9e;
+        outline: 0;
+        box-shadow: 0 8px 14px rgba(0, 0, 0, .18);
+    }
+
+/* Botón Guardar (verde con sombra) */
+.paq-btn-save {
+    background: #1abc9c;
+    color: #fff;
+    border: none;
+    padding: .55rem 1.3rem;
+    border-radius: 999px;
+    font-weight: 700;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .15);
+   
+}
+
+    .paq-btn-save:hover {
+        filter: brightness(.95);
+        color: #fff;
+    }
+
+/* Botón Cancelar (rojo con sombra y centrado) */
+.paq-btn-cancel {
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: .55rem 1.3rem;
+    border-radius: 999px;
+    font-weight: 700;
+    box-shadow: 0 6px 10px rgba(0,0,0,.15);
+    text-decoration: none;
+    transition: all .2s ease;
+}
+
+/* ===== Grupo de botones (Guardar y Cancelar) centrados perfectamente ===== */
+.paq-btn-group {
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    align-items: center;
+    gap: 2rem; /* espacio entre botones */
+    margin-top: 1.5rem; /* separación del formulario */
+    width: 100%;
+}
+
+    /* Asegura que ambos botones tengan el mismo ancho visual */
+    .paq-btn-group .btn {
+        min-width: 140px; /* igual tamaño para ambos */
+        text-align: center;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .paq-btn-cancel:hover {
+        background: #c0392b;
+        filter: brightness(.95);
+        color: #fff;
+    }
+
+
+
+
+/* Inputs con sombra como la maqueta */
+.paq-input {
+    background: #f7f7f7;
+    border: 2px solid #bdbdbd;
+    border-radius: 6px;
+    padding: .9rem 1rem;
+    box-shadow: 0 6px 10px rgba(0,0,0,.15);
+}
+
+    .paq-input::placeholder {
+        color: #9aa0a6;
+    }
+
+    .paq-input:focus {
+        border-color: #9e9e9e;
+        outline: 0;
+        box-shadow: 0 8px 14px rgba(0,0,0,.18);
+    }
+
+/* Botón Guardar (verde con sombra) */
+.paq-btn-save {
+    background: #1abc9c;
+    color: #fff;
+    border: none;
+    padding: .55rem 1.1rem;
+    border-radius: 999px;
+    font-weight: 700;
+    box-shadow: 0 6px 10px rgba(0,0,0,.15);
+}
+
+    .paq-btn-save:hover {
+        filter: brightness(.95);
+        color: #fff;
+    }

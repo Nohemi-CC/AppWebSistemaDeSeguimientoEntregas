@@ -1,0 +1,5 @@
+wwwroot\img\hero-fedex.jpg.svg
+wwwroot\img\logo.png
+wwwroot\css\site.css
+C:\Users\Mimi0\OneDrive\Documents\Profe\CrudRazorApp\wwwroot\img\hero-fedex.jpg.svg
+C:\Users\Mimi0\OneDrive\Documents\Profe\CrudRazorApp\wwwroot\css\site.css

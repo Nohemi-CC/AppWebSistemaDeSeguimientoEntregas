@@ -1,0 +1,34 @@
+﻿@page
+@model CrudRazorApp.Pages.Clientes.EditCliModel
+@{
+}
+<section class="paq-form-wrap container my-4 my-md-5">
+    <div class="paq-form-box bg-white">
+
+        <h2 class="paq-form-title">Editar Cliente</h2>
+
+        <form>
+            <div class="mb-4">
+                <input type="text" class="form-control paq-input" placeholder="Estefani" />
+            </div>
+
+            <div class="mb-4">
+                <input type="text" class="form-control paq-input" placeholder="ESFID213J8" />
+            </div>
+
+            <div class="mb-4">
+                <input type="text" class="form-control paq-input" placeholder="ani@gmail.com" />
+            </div>
+
+            <div class="mb-4">
+                <input type="text" class="form-control paq-input" placeholder="+1 81 0301 7847" />
+            </div>
+
+            <div class="paq-btn-group text-center mt-4">
+                <button type="submit" class="btn paq-btn-save">Guardar</button>
+                <a asp-page="./Clindex" class="btn paq-btn-cancel">Cancelar</a>
+            </div>
+        </form>
+
+    </div>
+</section>

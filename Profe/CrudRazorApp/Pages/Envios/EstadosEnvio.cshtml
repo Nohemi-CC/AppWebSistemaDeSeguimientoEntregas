@@ -1,0 +1,69 @@
+﻿@page
+@model CrudRazorApp.Pages.Productos.EstadosEnvioModel
+@{
+    ViewData["Title"] = "Estados de Envío";
+}
+
+<section class="envios-wrap container my-4 my-md-5">
+  <div class="envios-box bg-white">
+    <h2 class="envios-title">Estados Envíos</h2>
+
+    <!-- Encabezado -->
+    <div class="envios-head row gx-3">
+      <div class="col-5 col-md-4">Estado</div>
+      <div class="col-7 col-md-5">Fecha</div>
+      <div class="d-none d-md-block col-md-3">Lugar</div>
+    </div>
+    <hr class="envios-sep" />
+
+    <!-- Filas -->
+    <div class="envio-row row gx-3 align-items-center">
+      <div class="col-5 col-md-4 d-flex align-items-center">
+        <span class="dot dot-green me-2"></span> Entregado
+      </div>
+      <div class="col-7 col-md-5">31 - Diciembre - 2025 17:45:23</div>
+      <div class="col-12 col-md-3 mt-1 mt-md-0 text-md-end">Sucursal la Vía</div>
+    </div>
+
+    <div class="envio-row row gx-3 align-items-center">
+      <div class="col-5 col-md-4 d-flex align-items-center">
+        <span class="dot dot-red me-2"></span> Incidencia / Nota Roja
+      </div>
+      <div class="col-7 col-md-5">31 - Diciembre - 2025 17:45:23</div>
+      <div class="col-12 col-md-3 mt-1 mt-md-0 text-md-end">Parada en Avenida</div>
+    </div>
+
+    <div class="envio-row row gx-3 align-items-center">
+      <div class="col-5 col-md-4 d-flex align-items-center">
+        <span class="dot dot-yellow me-2"></span> En Ruta
+      </div>
+      <div class="col-7 col-md-5">31 - Diciembre - 2025 17:45:23</div>
+      <div class="col-12 col-md-3 mt-1 mt-md-0 text-md-end">Comando y Transporte</div>
+    </div>
+
+    <div class="envio-row row gx-3 align-items-center">
+      <div class="col-5 col-md-4 d-flex align-items-center">
+        <span class="dot dot-green me-2"></span> Entregado
+      </div>
+      <div class="col-7 col-md-5">31 - Diciembre - 2025 17:45:23</div>
+      <div class="col-12 col-md-3 mt-1 mt-md-0 text-md-end">Sucursal la Vía</div>
+    </div>
+
+    <div class="envio-row row gx-3 align-items-center">
+      <div class="col-5 col-md-4 d-flex align-items-center">
+        <span class="dot dot-red me-2"></span> Incidencia / Nota Roja
+      </div>
+      <div class="col-7 col-md-5">31 - Diciembre - 2025 17:45:23</div>
+      <div class="col-12 col-md-3 mt-1 mt-md-0 text-md-end">Parada en Avenida</div>
+    </div>
+
+    <div class="envio-row row gx-3 align-items-center">
+      <div class="col-5 col-md-4 d-flex align-items-center">
+        <span class="dot dot-yellow me-2"></span> En Ruta
+      </div>
+      <div class="col-7 col-md-5">31 - Diciembre - 2025 17:45:23</div>
+      <div class="col-12 col-md-3 mt-1 mt-md-0 text-md-end">Comando y Transporte</div>
+    </div>
+  </div>
+</section>
+

@@ -1,0 +1,67 @@
+﻿@page
+@model CrudRazorApp.Pages.Clientes.ClindexModel
+@{
+    ViewData["Title"] = "Clientes";
+}
+
+
+<section class="paq-wrap container my-4 my-md-5">
+    <div class="paq-box bg-white">
+
+        <div class="d-flex align-items-center justify-content-between mb-2">
+            <h2 class="paq-title m-0">Clientes</h2>
+            <a asp-page="./CreateCli" class="btn paq-btn-add shadow-soft">Añadir Cliente</a>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table paq-table align-middle">
+                <thead>
+                    <tr>
+                        <th>ID Cliente</th>
+                        <th>Nombre</th>
+                        <th>RFC</th>
+                        <th>Email</th>
+                        <th>Telefono</th>
+                        <th class="text-end">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Estefani</td>
+                        <td>ESFID213J8</td>
+                        <td>ani@gmail.com</td>
+                        <td>+1 81 0301 7847 </td>
+                        <td class="text-end">
+                            <a asp-page="./EditCli" class="btn paq-btn-edit me-2">Editar</a>
+                            <a asp-page="./DeleteCli" class="btn paq-btn-del">Eliminar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Cristian</td>
+                        <td>CTIAR2134H</td>
+                        <td>cris@gmail.com</td>
+                        <td>+1 26 1612 6101 </td>
+                        <td class="text-end">
+                            <a asp-page="./EditCli" class="btn paq-btn-edit me-2">Editar</a>
+                            <a asp-page="./DeleteCli" class="btn paq-btn-del">Eliminar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Monserrat</td>
+                        <td>MOART213J</td>
+                        <td>mon@gmail.com</td>
+                        <td>+1 98 7287 3027 </td>
+                        <td class="text-end">
+                            <a asp-page="./EditCli" class="btn paq-btn-edit me-2">Editar</a>
+                            <a asp-page="./DeleteCli" class="btn paq-btn-del">Eliminar</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</section>

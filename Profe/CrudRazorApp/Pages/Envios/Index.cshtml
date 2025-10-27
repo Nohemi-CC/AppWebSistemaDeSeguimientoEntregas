@@ -1,0 +1,44 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<section class="hero">
+    <div class="hero-inner container text-center">
+        <!-- Buscador -->
+        <div class="hero-search">
+            <input type="text" class="form-control" placeholder="Consultar Paquete" />
+            <button class="btn btn-primary d-flex align-items-center gap-1">
+                <i class="bi bi-search"></i> Consultar
+            </button>
+        </div>
+
+        <h1 class="display-5 brand-title mb-0">Sistema de Seguimiento de Entregas</h1>
+    </div>
+</section>
+
+<section class="container my-4">
+    <h5 class="text-center mb-3">ESTADOS DE ENVÍOS</h5>
+
+    <div class="states-card">
+        <div class="state-row bg-white mb-2">
+            <div class="state-dot dot-green"></div>
+            <div class="fw-semibold">Entregado</div>
+            <div>31 - Diciembre - 2025 17:45:23</div>
+            <div class="text-muted">Sucursal la Vía</div>
+        </div>
+        <div class="state-row bg-white mb-2">
+            <div class="state-dot dot-red"></div>
+            <div class="fw-semibold">Incidencia / Nota Roja</div>
+            <div>31 - Diciembre - 2025 17:45:23</div>
+            <div class="text-muted">Parada en Avenida</div>
+        </div>
+        <div class="state-row bg-white">
+            <div class="state-dot dot-yellow"></div>
+            <div class="fw-semibold">En Ruta</div>
+            <div>31 - Diciembre - 2025 17:45:23</div>
+            <div class="text-muted">Comando y Transporte</div>
+        </div>
+    </div>
+</section>

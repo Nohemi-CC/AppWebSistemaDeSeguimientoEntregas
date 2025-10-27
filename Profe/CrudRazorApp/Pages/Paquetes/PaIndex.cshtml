@@ -1,0 +1,63 @@
+﻿@page
+@model CrudRazorApp.Pages.Paquetes.PaIndexModel
+@{
+    ViewData["Title"] = "Paquetes";
+}
+
+
+<section class="paq-wrap container my-4 my-md-5">
+    <div class="paq-box bg-white">
+
+        <div class="d-flex align-items-center justify-content-between mb-2">
+            <h2 class="paq-title m-0">Paquetes</h2>
+            <a asp-page="./CreatePa" class="btn paq-btn-add shadow-soft">Añadir Paquete</a>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table paq-table align-middle">
+                <thead>
+                    <tr>
+                        <th>ID Paquete</th>
+                        <th>Peso KG</th>
+                        <th>Contenido</th>
+                        <th>Numero de Inventario</th>
+                        <th class="text-end">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>0.6 kg</td>
+                        <td>Teclado</td>
+                        <td>18103017847219</td>
+                        <td class="text-end">
+                            <a asp-page="./EditPa" class="btn paq-btn-edit me-2">Editar</a>
+                            <a asp-page="./DeletePa" class="btn paq-btn-del">Eliminar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>5.0 kg</td>
+                        <td>Jarrón</td>
+                        <td>12616126101301</td>
+                        <td class="text-end">
+                            <a asp-page="./EditPa" class="btn paq-btn-edit me-2">Editar</a>
+                            <a asp-page="./DeletePa" class="btn paq-btn-del">Eliminar</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>10 kg</td>
+                        <td>Microondas</td>
+                        <td>19872873027838</td>
+                        <td class="text-end">
+                            <a asp-page="./EditPa" class="btn paq-btn-edit me-2">Editar</a>
+                            <a asp-page="./DeletePa" class="btn paq-btn-del">Eliminar</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</section>

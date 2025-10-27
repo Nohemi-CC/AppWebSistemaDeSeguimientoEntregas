@@ -1,0 +1,314 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|c:\\users\\mimi0\\onedrive\\documents\\profe\\crudrazorapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|solutionrelative:crudrazorapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|c:\\users\\mimi0\\onedrive\\documents\\profe\\crudrazorapp\\pages\\clientes\\editcli.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|solutionrelative:crudrazorapp\\pages\\clientes\\editcli.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|c:\\users\\mimi0\\onedrive\\documents\\profe\\crudrazorapp\\pages\\paquetes\\editpa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|solutionrelative:crudrazorapp\\pages\\paquetes\\editpa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|c:\\users\\mimi0\\onedrive\\documents\\profe\\crudrazorapp\\pages\\clientes\\createcli.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|solutionrelative:crudrazorapp\\pages\\clientes\\createcli.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|c:\\users\\mimi0\\onedrive\\documents\\profe\\crudrazorapp\\pages\\clientes\\clindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|solutionrelative:crudrazorapp\\pages\\clientes\\clindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|c:\\users\\mimi0\\onedrive\\documents\\profe\\crudrazorapp\\pages\\paquetes\\createpa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|solutionrelative:crudrazorapp\\pages\\paquetes\\createpa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|c:\\users\\mimi0\\onedrive\\documents\\profe\\crudrazorapp\\pages\\paquetes\\deletepa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|solutionrelative:crudrazorapp\\pages\\paquetes\\deletepa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|c:\\users\\mimi0\\onedrive\\documents\\profe\\crudrazorapp\\pages\\paquetes\\detailspa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|solutionrelative:crudrazorapp\\pages\\paquetes\\detailspa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|c:\\users\\mimi0\\onedrive\\documents\\profe\\crudrazorapp\\pages\\paquetes\\paindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|solutionrelative:crudrazorapp\\pages\\paquetes\\paindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|c:\\users\\mimi0\\onedrive\\documents\\profe\\crudrazorapp\\pages\\envios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|solutionrelative:crudrazorapp\\pages\\envios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|c:\\users\\mimi0\\onedrive\\documents\\profe\\crudrazorapp\\pages\\envios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|solutionrelative:crudrazorapp\\pages\\envios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|c:\\users\\mimi0\\onedrive\\documents\\profe\\crudrazorapp\\pages\\clientes\\deletecli.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|solutionrelative:crudrazorapp\\pages\\clientes\\deletecli.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|c:\\users\\mimi0\\onedrive\\documents\\profe\\crudrazorapp\\pages\\envios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|solutionrelative:crudrazorapp\\pages\\envios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|c:\\users\\mimi0\\onedrive\\documents\\profe\\crudrazorapp\\pages\\envios\\estadosenvio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|solutionrelative:crudrazorapp\\pages\\envios\\estadosenvio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|c:\\users\\mimi0\\onedrive\\documents\\profe\\crudrazorapp\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|solutionrelative:crudrazorapp\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|c:\\users\\mimi0\\onedrive\\documents\\profe\\crudrazorapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|solutionrelative:crudrazorapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|c:\\users\\mimi0\\onedrive\\documents\\profe\\crudrazorapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|solutionrelative:crudrazorapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|c:\\users\\mimi0\\onedrive\\documents\\profe\\crudrazorapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24A4CB23-9D64-497B-A573-23C4DC188854}|CrudRazorApp\\CrudRazorApp.csproj|solutionrelative:crudrazorapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateCli.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Clientes\\CreateCli.cshtml",
+              "RelativeDocumentMoniker": "CrudRazorApp\\Pages\\Clientes\\CreateCli.cshtml",
+              "ToolTip": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Clientes\\CreateCli.cshtml",
+              "RelativeToolTip": "CrudRazorApp\\Pages\\Clientes\\CreateCli.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T01:47:57.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditPa.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Paquetes\\EditPa.cshtml",
+              "RelativeDocumentMoniker": "CrudRazorApp\\Pages\\Paquetes\\EditPa.cshtml",
+              "ToolTip": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Paquetes\\EditPa.cshtml",
+              "RelativeToolTip": "CrudRazorApp\\Pages\\Paquetes\\EditPa.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T23:06:55.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeletePa.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Paquetes\\DeletePa.cshtml",
+              "RelativeDocumentMoniker": "CrudRazorApp\\Pages\\Paquetes\\DeletePa.cshtml",
+              "ToolTip": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Paquetes\\DeletePa.cshtml",
+              "RelativeToolTip": "CrudRazorApp\\Pages\\Paquetes\\DeletePa.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T23:05:46.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreatePa.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Paquetes\\CreatePa.cshtml",
+              "RelativeDocumentMoniker": "CrudRazorApp\\Pages\\Paquetes\\CreatePa.cshtml",
+              "ToolTip": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Paquetes\\CreatePa.cshtml",
+              "RelativeToolTip": "CrudRazorApp\\Pages\\Paquetes\\CreatePa.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T23:05:21.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Envios\\Create.cshtml",
+              "RelativeDocumentMoniker": "CrudRazorApp\\Pages\\Envios\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Envios\\Create.cshtml",
+              "RelativeToolTip": "CrudRazorApp\\Pages\\Envios\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T01:22:33.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Clindex.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Clientes\\Clindex.cshtml",
+              "RelativeDocumentMoniker": "CrudRazorApp\\Pages\\Clientes\\Clindex.cshtml",
+              "ToolTip": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Clientes\\Clindex.cshtml",
+              "RelativeToolTip": "CrudRazorApp\\Pages\\Clientes\\Clindex.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADoAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T01:13:33.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "CrudRazorApp\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "CrudRazorApp\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAABAAAAAAAAAAAowBABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-20T22:13:46.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DetailsPa.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Paquetes\\DetailsPa.cshtml",
+              "RelativeDocumentMoniker": "CrudRazorApp\\Pages\\Paquetes\\DetailsPa.cshtml",
+              "ToolTip": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Paquetes\\DetailsPa.cshtml",
+              "RelativeToolTip": "CrudRazorApp\\Pages\\Paquetes\\DetailsPa.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T23:06:05.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Envios\\Index.cshtml",
+              "RelativeDocumentMoniker": "CrudRazorApp\\Pages\\Envios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Envios\\Index.cshtml",
+              "RelativeToolTip": "CrudRazorApp\\Pages\\Envios\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T01:30:38.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditCli.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Clientes\\EditCli.cshtml",
+              "RelativeDocumentMoniker": "CrudRazorApp\\Pages\\Clientes\\EditCli.cshtml",
+              "ToolTip": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Clientes\\EditCli.cshtml",
+              "RelativeToolTip": "CrudRazorApp\\Pages\\Clientes\\EditCli.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T01:57:37.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Paquetes\\PaIndex.cshtml",
+              "RelativeDocumentMoniker": "CrudRazorApp\\Pages\\Paquetes\\PaIndex.cshtml",
+              "ToolTip": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Paquetes\\PaIndex.cshtml",
+              "RelativeToolTip": "CrudRazorApp\\Pages\\Paquetes\\PaIndex.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T23:07:37.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Envios\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CrudRazorApp\\Pages\\Envios\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Envios\\Delete.cshtml",
+              "RelativeToolTip": "CrudRazorApp\\Pages\\Envios\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T01:56:28.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DeleteCli.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Clientes\\DeleteCli.cshtml",
+              "RelativeDocumentMoniker": "CrudRazorApp\\Pages\\Clientes\\DeleteCli.cshtml",
+              "ToolTip": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Clientes\\DeleteCli.cshtml",
+              "RelativeToolTip": "CrudRazorApp\\Pages\\Clientes\\DeleteCli.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T02:02:20.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EstadosEnvio.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Envios\\EstadosEnvio.cshtml",
+              "RelativeDocumentMoniker": "CrudRazorApp\\Pages\\Envios\\EstadosEnvio.cshtml",
+              "ToolTip": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Envios\\EstadosEnvio.cshtml",
+              "RelativeToolTip": "CrudRazorApp\\Pages\\Envios\\EstadosEnvio.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T22:39:13.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CrudRazorApp\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "CrudRazorApp\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T01:40:14.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "CrudRazorApp\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Index.cshtml",
+              "RelativeToolTip": "CrudRazorApp\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T01:03:14.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CrudRazorApp\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CrudRazorApp\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T05:39:41.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CrudRazorApp\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Mimi0\\OneDrive\\Documents\\Profe\\CrudRazorApp\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "CrudRazorApp\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T05:36:28.426Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
